@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    padding-left: 120px;
+    padding-right: 120px;
+    height: 100vh;
+}
+.head{
+    margin-top: 50px;
+    /* margin-left: 120px; */
+    /* padding: 10px; */
+    width: 100%;
+    display: inline-flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+}
+#main-container{
+    display: flex;
+}
+
+.content{
+    margin-top: 200px;
+}
+.content h1{
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+.content p{
+    margin-top: 25px; 
+    margin-bottom: 45px;
+    font-size: 18px;
+}
+p{
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: rgba(252, 249, 249, 0.536);
+}
+.btn{
+    height: 45px;
+    width: 200px;
+}
+#transparent{
+    background-color: transparent;
+    color: cyan;
+    border: 1px solid cyan;
+}
+#cyne{
+    background-color: rgba(0, 255, 255, 0.914);
+    border: none;
+    margin-right: 20px;
+
+}
+.stats{
+    display: flex;
+    margin-top: 120px;
+    /* margin: 0; */
+}
+.stats p{
+    margin-top: 10px;
+}
+.stats h1{
+    font-size: 27px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.stats div{
+
+    margin-right: 40px;
+    height: 85px;
+    width: 160px;
+
+}
+.one , .two, .three{
+    border-right: 1px solid rgba(255, 255, 255, 0.608);
+}
+.head #btn-id{
+    border: none;
+    background-color: cyan;
+    color: black;
+}
+.rock img{
+    height: 400px;
+    width: 380px;
+    border-radius: 10px;
+}
+.rocket-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 150px;
+    background-color: whitesmoke;
+    color: black;
+    padding: 25px;
+}
+#dark{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 150px;
+    margin-right: 15px;
+}
+#light{
+    border :1px solid black;
+    width: 150px;
+}
+.right p, .left p{
+    color: rgba(88, 85, 85, 0.471);
+}
+.rocket-footer h2{
+    font-size: 20px;
+    line-height: 40px;
+}
+.rocket{
+    height: 555px;
+    width: 380px;
+    border-radius: 10px;
+    margin-left: 230px;
+    margin-top: 100px;
+    box-shadow: 10px 10px 400px rgba(255,  255, 255, 0.345),
+                -10px -10px 400px rgba(255, 255, 255, 0.446);
+    margin-bottom: 150px;
+}
+button{
+    font-size: 15px;
+}
